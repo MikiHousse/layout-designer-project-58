@@ -2,6 +2,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  min-width: 1440;
   color: #2A2626;
   font-weight: 400;
   font-size: 16px;
@@ -11,6 +12,16 @@ body {
 }
 
 .top {
+  margin-top: 30px;
+}
+
+.section {
+  padding-bottom: 89px;
+  padding-top: 49px;
+}
+
+.width {
+  height: 720px;
   padding-top: 100px;
 }
 
@@ -29,7 +40,7 @@ body {
 .container {
   width: 1110px;
   margin: 0 auto;
-  padding: 100px 0;
+  padding-right: 50px;
 }
 
 .relative {
@@ -130,6 +141,8 @@ h3 {
 
 .main-background {
   position: relative;
+  padding-top: 50px;
+  /* margin-bottom: 100px; */
 }
 .main-background::before {
   position: absolute;
@@ -298,11 +311,15 @@ header .text-block p:last-of-type {
 header img {
   position: absolute;
   top: 5px;
-  right: -268px;
+  right: -218px;
   width: auto;
   height: 525px;
   overflow: hidden;
   z-index: 5;
+}
+
+.low {
+  padding-bottom: 6px;
 }
 
 .shadow-filter {
@@ -316,25 +333,35 @@ header img {
 
 .video {
   position: absolute;
-  top: 165px;
+  top: 100px;
   left: 48px;
   border: none;
+  padding-top: 130px;
+}
+
+.video-bottom {
+  padding-bottom: 10px;
 }
 
 .five-cognitive-distortions {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 200px;
+  padding-top: 195px;
   column-gap: 30px;
   row-gap: 20px;
+  padding-bottom: 100px;
 }
 
 .nav {
   display: block;
   box-sizing: border-box;
   width: 350px;
-  height: 340px;
+  height: 323px;
   padding: 24px;
+}
+
+.and {
+  height: 350px;
 }
 
 .nav h2 {
@@ -390,7 +417,7 @@ header img {
 
 .form-subscribe {
   display: flex;
-  padding: 55px;
+  padding: 35px;
   column-gap: 122px;
 }
 
@@ -454,4 +481,8 @@ input[type=email] {
 
 #navigation .container {
   padding-bottom: 125px;
+}
+
+.footer {
+  padding: 100px;
 }
