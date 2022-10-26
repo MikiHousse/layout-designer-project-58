@@ -10,6 +10,10 @@ body {
   overflow-x: hidden;
 }
 
+.top {
+  padding-top: 100px;
+}
+
 .open-sans {
   font-family: "Open Sans", sans-serif;
 }
